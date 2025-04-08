@@ -7,50 +7,81 @@
     body {
       font-family: 'Segoe UI', sans-serif;
       background: #f4f4f9;
-      text-align: center;
-      padding: 50px;
+      margin: 0;
+      padding: 0;
     }
 
-    h1 {
-      font-size: 3rem;
-      color: #333;
-      margin-bottom: 40px;
-    }
-
-    .button-container {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      max-width: 300px;
-      margin: 0 auto;
-    }
-
-    a.button {
-      display: block;
+    /* Blue Row across the Top */
+    .top-row {
       background-color: #4f46e5;
-      color: white;
-      padding: 15px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-size: 1.2rem;
-      transition: background-color 0.2s ease-in-out;
+      padding: 15px 0;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10;  /* Ensures it stays on top */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
-    a.button:hover {
+    /* Navbar inside the blue row */
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      font-size: 1.2rem;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 30px;
+      background-color: #4f46e5;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+      font-weight: bold;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a:hover {
       background-color: #3730a3;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    nav a:active {
+      transform: translateY(1px);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Adjust content padding to avoid overlap with fixed navbar */
+    .content {
+      padding-top: 100px; /* Adjust to make space for the fixed navbar */
+      text-align: center;
     }
   </style>
 </head>
 <body>
 
-  <h1>Welcome to the Project</h1>
+  <!-- Navbar Placeholder -->
+  <div id="navbar-placeholder"></div>
 
-  <div class="button-container">
-    <a class="button" href="lore.html">Lore</a>
-    <a class="button" href="authors.html">Authors</a>
-    <a class="button" href="gameplay.html">Gameplay</a>
-    <a class="button" href="process.html">Process</a>
+  <!-- Content Section -->
+  <div class="content">
+    <h1>Welcome to the Project</h1>
+    <p>Choose a section to explore!</p>
   </div>
+
+  <!-- JavaScript to load the navbar dynamically -->
+  <script>
+    // JavaScript to load the navbar dynamically from navbar.html
+    fetch('navbar.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar-placeholder').innerHTML = data;
+      })
+      .catch(error => console.error('Error loading the navbar:', error));
+  </script>
 
 </body>
 </html>

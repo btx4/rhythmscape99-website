@@ -7,16 +7,61 @@
     body {
       font-family: 'Segoe UI', sans-serif;
       background: #f4f4f9;
-      text-align: center;
-      padding: 50px;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
+
+    header {
+      background-color: #4f46e5;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
     h1 {
       font-size: 3rem;
-      color: #333;
+      margin: 0;
     }
-.back-button {
-      margin-top: 40px;
+
+    .content {
+      padding: 50px 20px;
+      max-width: 1000px; /* Optional: Set max width for content */
+      margin: 0 auto; /* Center the content */
+    }
+
+    .section {
+      display: flex;
+      align-items: center;
+      margin-bottom: 40px;
+      justify-content: space-between;
+    }
+
+    .section img {
+      width: 30%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .text-container {
+      width: 65%;
+      text-align: left;
+    }
+
+    .text-container h2 {
+      font-size: 2rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .text-container p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    .back-button {
       display: inline-block;
+      margin-top: 40px;
       background-color: #4f46e5;
       color: white;
       padding: 10px 20px;
@@ -24,13 +69,57 @@
       text-decoration: none;
       font-size: 1rem;
     }
+
     .back-button:hover {
       background-color: #3730a3;
     }
   </style>
 </head>
 <body>
-  <h1>Authors</h1>
-  <a class="back-button" href="index.html">← Back to Home</a>
+
+  <header>
+    <h1>Authors</h1>
+  </header>
+
+  <div class="content">
+    <!-- Section 1 -->
+    <div class="section">
+      <img src="author1.jpg" alt="Author 1">
+      <div class="text-container">
+        <h2>Will Balliette</h2>
+        <p>Description about Author 1. This could include their background, contributions, or anything relevant to the project.</p>
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="section">
+      <img src="author2.jpg" alt="Author 2">
+      <div class="text-container">
+        <h2>Nefeli Hadjiyiannis</h2>
+        <p>Description about Author 2. More details, like their involvement in the project or any achievements.</p>
+      </div>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="section">
+      <img src="author3.jpg" alt="Author 3">
+      <div class="text-container">
+        <h2>Gage Gruidel</h2>
+        <p>Description about Author 3. A brief overview of their role or expertise in the project.</p>
+      </div>
+    </div>
+
+    <!-- Section 4 -->
+    <div class="section">
+      <img src="author4.jpg" alt="Author 4">
+      <div class="text-container">
+        <h2>Adam Yoder</h2>
+        <p>Description about Author 4. This section can describe their contribution or any relevant background information.</p>
+      </div>
+    </div>
+
+    <a class="back-button" href="index.html">← Back to Home</a>
+  </div>
+
 </body>
 </html>
