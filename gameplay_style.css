@@ -1,0 +1,75 @@
+.GAMEPLAY {
+    background-color: #858585;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .GAMEPLAY .div {
+    background-color: #858585;
+    width: 1440px;
+    height: 1970px;
+    position: relative;
+  }
+  
+
+  .GAMEPLAY .group-wrapper {
+    background-color: #858585;
+    overflow-x: hidden;
+    width: 1440px;
+    height: 1970px;
+  }
+  
+  .GAMEPLAY .group {
+    position: relative;
+    width: 1442px;
+    height: 1946px;
+  }
+  
+  .GAMEPLAY .overlap-group {
+    position: absolute;
+    width: 1440px;
+    height: 1136px;
+    top: 0;
+    left: 0;
+  }
+  
+  /* .GAMEPLAY .website-nav-bar {
+    position: absolute;
+    width: 1440px;
+    height: 392px;
+    top: 0;
+    left: 0;
+  } */
+  
+  .GAMEPLAY .text-wrapper {
+    position: absolute;
+    top: 231px;
+    left: 100px;
+    font-family: "gambado-sans-forte", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: -5.28px;
+    line-height: normal;
+  }
+  
+  .GAMEPLAY .stomp-tutorial {
+    position: absolute;
+    width: 1440px;
+    height: 810px;
+    top: 326px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .GAMEPLAY .guitar-tutorial {
+    position: absolute;
+    width: 1440px;
+    height: 810px;
+    top: 1136px;
+    left: 0;
+    object-fit: cover;
+  }
+  

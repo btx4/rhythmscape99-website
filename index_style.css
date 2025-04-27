@@ -1,0 +1,81 @@
+.START {
+    background-color: #00f7f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.START .group-wrapper {
+    background-color: #00f7f6;
+    width: 1440px;
+    height: 1000px;
+}
+
+.START .group {
+    height: 840px;
+    background-image: url(assets/start_page_assets/cd.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.START .overlap-group {
+    position: relative;
+    width: 526px;
+    height: 107px;
+    top: 689px;
+}
+
+.START .vector {
+    position: absolute;
+    width: 606px;
+    height: 125px;
+    top: 0;
+    left: 0;
+}
+
+.START .div {
+    position: absolute;
+    width: 445px;
+    height: 83px;
+    top: 24px;
+    left: 28px;
+}
+
+.START .ENTER-THE {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    /* -webkit-text-stroke: 1.5px #ffffff; */
+    font-family: "ibm-plex-mono", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 82.5px;
+    white-space: nowrap;
+}   
+
+.START .text-wrapper {
+    letter-spacing: -2.65px;
+}
+
+.START .span {
+    letter-spacing: -30.05px;
+}
+
+.START .img {
+    position: absolute;
+    width: 19px;
+    height: 26px;
+    top: 39px;
+    left: 465px;
+}
+
+.START .vector-2 {
+    position: absolute;
+    width: 19px;
+    height: 26px;
+    top: 39px;
+    left: 490px;
+}

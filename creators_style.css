@@ -1,0 +1,167 @@
+.CREATORS {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .CREATORS .overlap-wrapper {
+    background-color: #ffffff;
+    width: 1920px;
+    height: 1080px;
+  }
+  
+  .CREATORS .overlap {
+    position: relative;
+    height: 921px;
+  }
+  
+  .CREATORS .overlap-group {
+    position: absolute;
+    width: 1920px;
+    height: 921px;
+    top: 0;
+    left: 0;
+  }
+  
+  .CREATORS .website-nav-bar {
+    position: absolute;
+    width: 1920px;
+    height: 544px;
+    top: 0;
+    left: 0;
+  }
+  
+  .CREATORS .text-wrapper {
+    position: absolute;
+    width: 347px;
+    top: 367px;
+    left: 390px;
+    font-family: "IBM Plex Mono-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .CREATORS .div {
+    position: absolute;
+    width: 347px;
+    top: 377px;
+    left: 1070px;
+    font-family: "IBM Plex Mono-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .CREATORS .text-wrapper-2 {
+    top: 309px;
+    left: 390px;
+    position: absolute;
+    width: 324px;
+    font-family: "IBM Plex Mono-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .CREATORS .text-wrapper-3 {
+    position: absolute;
+    width: 429px;
+    top: 309px;
+    left: 1070px;
+    font-family: "IBM Plex Mono-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .CREATORS .text-wrapper-4 {
+    position: absolute;
+    width: 347px;
+    top: 347px;
+    left: 1070px;
+    font-family: "IBM Plex Mono-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .CREATORS .vector {
+    position: absolute;
+    width: 254px;
+    height: 631px;
+    top: 275px;
+    left: 117px;
+  }
+  
+  .CREATORS .img {
+    position: absolute;
+    width: 239px;
+    height: 650px;
+    top: 271px;
+    left: 803px;
+  }
+  
+  .CREATORS .p {
+    position: absolute;
+    width: 347px;
+    top: 734px;
+    left: 381px;
+    font-family: "IBM Plex Mono-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .CREATORS .text {
+    position: absolute;
+    width: 347px;
+    top: 734px;
+    left: 1071px;
+    font-family: "IBM Plex Mono-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .CREATORS .text-wrapper-5 {
+    position: absolute;
+    width: 324px;
+    top: 676px;
+    left: 381px;
+    font-family: "IBM Plex Mono-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .CREATORS .text-wrapper-6 {
+    top: 676px;
+    left: 1071px;
+    position: absolute;
+    width: 324px;
+    font-family: "IBM Plex Mono-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }

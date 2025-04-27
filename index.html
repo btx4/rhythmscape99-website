@@ -1,87 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Project Homepage</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f4f4f9;
-      margin: 0;
-      padding: 0;
-    }
-
-    /* Blue Row across the Top */
-    .top-row {
-      background-color: #4f46e5;
-      padding: 15px 0;
-      width: 100%;
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 10;  /* Ensures it stays on top */
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    /* Navbar inside the blue row */
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-    }
-
-    nav a {
-      color: white;
-      font-size: 1.2rem;
-      text-decoration: none;
-      padding: 12px 20px;
-      border-radius: 30px;
-      background-color: #4f46e5;
-      transition: all 0.3s ease;
-      text-transform: uppercase;
-      font-weight: bold;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    nav a:hover {
-      background-color: #3730a3;
-      transform: translateY(-3px);
-      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-    }
-
-    nav a:active {
-      transform: translateY(1px);
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-
-    /* Adjust content padding to avoid overlap with fixed navbar */
-    .content {
-      padding-top: 100px; /* Adjust to make space for the fixed navbar */
-      text-align: center;
-    }
-  </style>
-</head>
-<body>
-
-  <!-- Navbar Placeholder -->
-  <div id="navbar-placeholder"></div>
-
-  <!-- Content Section -->
-  <div class="content">
-    <h1>Welcome to the Project</h1>
-    <p>Choose a section to explore!</p>
-  </div>
-
-  <!-- JavaScript to load the navbar dynamically -->
-  <script>
-    // JavaScript to load the navbar dynamically from navbar.html
-    fetch('navbar.html')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('navbar-placeholder').innerHTML = data;
-      })
-      .catch(error => console.error('Error loading the navbar:', error));
-  </script>
-
-</body>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="index_style.css" />
+        <link rel="stylesheet" href="https://use.typekit.net/wbw2two.css">
+        <link rel="stylesheet" href="https://use.typekit.net/wbw2two.css">
+        <link rel="stylesheet" href="https://use.typekit.net/wbw2two.css">
+    </head>
+    <body>
+        <div class="START">
+            <div class="group-wrapper">
+                <div class="group">
+                    <link rel="stylesheet" href="https://use.typekit.net/wbw2two.css">
+                    <div class="overlap-group">
+                        <img class="vector" src="assets/start_page_assets/Vector 5.png" />
+                        <div class="div">
+                            <p class="ENTER-THE">
+                               <!-- <span class="text-wrapper">ENTER THE RHYTHMSCAPE</span> -->
+                               <a href="lore.html" style="color:rgb(255, 255, 255)";>ENTER THE RHYTHMSCAPE</a>
+                            </p>
+                            <img class="img" src="assets/start_page_assets/Vector 3.svg" />
+                            <img class="vector-2" src="assets/start_page_assets/Vector 4.svg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
