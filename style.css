@@ -24,7 +24,7 @@
 .LORE .website-nav-bar {
   position: absolute;
   width: 1440px;
-  height: 389px;
+  height: 150%;
   top: 0;
   left: 0;
 }
