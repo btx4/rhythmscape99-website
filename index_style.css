@@ -9,12 +9,12 @@
 
 .START .group-wrapper {
     background-color: #00f7f6;
-    width: 1440px;
-    height: 1000px;
+    width: 100%;
+    height: auto;
 }
 
 .START .group {
-    height: 840px;
+    height: 100vh;
     background-image: url(assets/start_page_assets/cd.png);
     background-size: cover;
     background-position: 50% 50%;
