@@ -1,3 +1,76 @@
+.NAVBAR {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.NAVBAR .overlap-group-wrapper {
+  overflow-x: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.NAVBAR .overlap-group {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.NAVBAR .bar {
+  position: relative;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0; 
+  object-fit: cover;
+}
+
+.NAVBAR .lore {
+  position: absolute;
+  width: 8vw;
+  height: auto;
+  top: 4vw;
+  left: 14.5vw;
+
+}
+
+.NAVBAR .creators {
+  position: absolute;
+  width: 12.8vw;
+  height: auto;
+  top: 4vw;
+  left: 21.5vw;
+}
+
+.NAVBAR .gameplay {
+  position: absolute;
+  width: 14.4vw;
+  height: auto;
+  top: 4vw;
+  left: 33.5vw;
+}
+
+.NAVBAR .process {
+  position: absolute;
+  width: 14.6vw;
+  height: auto;
+  top: 3.6vw;
+  left: 46.5vw;
+}
+
+.NAVBAR .home {
+  position: absolute;
+  width: 20vw;
+  height: auto;
+  top: 20px;
+  right: 0;
+}
+
+
+
 .LORE {
   background-color: #ffffff;
   display: flex;
@@ -21,13 +94,14 @@
   left: 0;
 }
 
-.LORE .website-nav-bar {
+/* .website-nav-bar {
   position: absolute;
-  width: 1440px;
-  height: 150%;
+  width: 100%;
+  height: auto;
   top: 0;
   left: 0;
-}
+  z-index: 10;
+} */
 
 .LORE .text-wrapper {
   position: absolute;
