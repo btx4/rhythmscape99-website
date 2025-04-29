@@ -69,4 +69,869 @@
     right: 0;
   }
   
-  
+  .PROCESS {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.PROCESS .div {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 7516.5px;
+    position: relative;
+}
+
+.PROCESS .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 1356px;
+    top: 263px;
+    left: 0;
+}
+
+.PROCESS .overlap-group {
+    position: absolute;
+    width: 1440px;
+    height: 1356px;
+    top: 0;
+    left: 0;
+}
+
+.PROCESS .screenshot-wrapper {
+    position: absolute;
+    width: 687px;
+    height: 500px;
+    top: 0;
+    left: 753px;
+    background-image: url(assets/process_assets/Vector\ 2.png);
+    background-size: 100% 100%;
+}
+
+.PROCESS .screenshot {
+    position: absolute;
+    width: 531px;
+    height: 412px;
+    top: 44px;
+    left: 48px;
+    object-fit: cover;
+}
+
+.PROCESS .overlap-2 {
+    position: absolute;
+    width: 1395px;
+    height: 985px;
+    top: 371px;
+    left: 0;
+}
+
+.PROCESS .vector {
+    position: absolute;
+    width: 746px;
+    height: 574px;
+    top: 0;
+    left: 0;
+}
+
+.PROCESS .img {
+    position: absolute;
+    width: 747px;
+    height: 529px;
+    top: 455px;
+    left: 648px;
+}
+
+.PROCESS .screenshot-2 {
+    position: absolute;
+    width: 654px;
+    height: 408px;
+    top: 524px;
+    left: 678px;
+    object-fit: cover;
+}
+
+.PROCESS .screenshot-3 {
+    position: absolute;
+    width: 653px;
+    height: 371px;
+    top: 108px;
+    left: 74px;
+    object-fit: cover;
+}
+
+.PROCESS .this-version-of {
+    position: absolute;
+    width: 531px;
+    top: 627px;
+    left: 801px;
+    font-family: "ibm-plex-sans", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 23.2px;
+}
+
+.PROCESS .text-wrapper {
+    width: 322px;
+    top: 583px;
+    left: 801px;
+    position: absolute;
+    font-family: "ibm-plex-mono", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.PROCESS .this-iteration-of {
+    position: absolute;
+    width: 531px;
+    top: 1035px;
+    left: 74px;
+    font-family: "ibm-plex-sans", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 23.2px;
+}
+
+.PROCESS .text-wrapper-2 {
+    width: 322px;
+    top: 991px;
+    left: 74px;
+    position: absolute;
+    font-family: "ibm-plex-mono", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.PROCESS .text-wrapper-3 {
+    position: absolute;
+    top: 23px;
+    left: 74px;
+    font-family: "gambado-sans-forte", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: -5.28px;
+    line-height: normal;
+}
+
+.PROCESS .the-inspiration-for {
+    position: absolute;
+    width: 656px;
+    top: 186px;
+    left: 74px;
+    font-family: "ibm-plex-sans", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 23.2px;
+}
+
+.PROCESS .text-wrapper-4 {
+    width: 322px;
+    top: 142px;
+    left: 74px;
+    position: absolute;
+    font-family: "ibm-plex-mono", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.PROCESS .overlap-3 {
+    position: absolute;
+    width: 1440px;
+    height: 1347px;
+    top: 2188px;
+    left: 0;
+}
+
+.PROCESS .overlap-4 {
+    position: absolute;
+    width: 1440px;
+    height: 1346px;
+    top: 2px;
+    left: 0;
+}
+
+.PROCESS .full-layout-wrapper {
+    position: absolute;
+    width: 687px;
+    height: 500px;
+    top: 0;
+    left: 730px;
+    background-image: url(assets/process_assets/Vector\ 10.png);
+    background-size: 100% 100%;
+}
+
+.PROCESS .full-layout {
+    position: absolute;
+    width: 443px;
+    height: 457px;
+    top: 27px;
+    left: 122px;
+}
+
+.PROCESS .overlap-5 {
+    position: absolute;
+    width: 1440px;
+    height: 1145px;
+    top: 201px;
+    left: 0;
+}
+
+.PROCESS .vector-2 {
+    position: absolute;
+    width: 722px;
+    height: 574px;
+    top: 163px;
+    left: 0;
+}
+
+.PROCESS .the-first-version-of {
+    position: absolute;
+    width: 672px;
+    top: 0;
+    left: 50px;
+    font-family: "ibm-plex-sans", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 23.2px;
+}
+
+.PROCESS .vector-3 {
+    position: absolute;
+    width: 807px;
+    height: 539px;
+    top: 606px;
+    left: 633px;
+}
+
+.PROCESS .wiring-board {
+    position: absolute;
+    width: 543px;
+    height: 407px;
+    top: 253px;
+    left: 82px;
+    object-fit: cover;
+}
+
+.PROCESS .image {
+    position: absolute;
+    width: 441px;
+    height: 429px;
+    top: 671px;
+    left: 800px;
+}
+
+.PROCESS .the-unique {
+    position: absolute;
+    width: 531px;
+    top: 619px;
+    left: 777px;
+    font-family: "ibm-plex-sans", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 23.2px;
+}
+
+.PROCESS .text-wrapper-5 {
+    position: absolute;
+    width: 376px;
+    top: 576px;
+    left: 777px;
+    font-family: "ibm-plex-mono", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.PROCESS .just-as-important-as {
+    position: absolute;
+    width: 531px;
+    top: 1024px;
+    left: 55px;
+    font-family: "ibm-plex-sans", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 23.2px;
+}
+
+.PROCESS .text-wrapper-6 {
+    position: absolute;
+    width: 445px;
+    top: 981px;
+    left: 55px;
+    font-family: "ibm-plex-mono", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.PROCESS .text-wrapper-7 {
+    position: absolute;
+    width: 381px;
+    top: 100px;
+    left: 50px;
+    font-family: "ibm-plex-mono", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 27px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.PROCESS .text-wrapper-8 {
+    position: absolute;
+    width: 322px;
+    top: 159px;
+    left: 50px;
+    font-family: "ibm-plex-mono", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.PROCESS .THE-WIRE-WHISPERER {
+    position: absolute;
+    width: 570px;
+    top: 0;
+    left: 50px;
+    font-family: "gambado-sans-forte", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 48px;
+    white-space: nowrap;
+}
+
+.PROCESS .img-wrapper {
+    position: absolute;
+    width: 778px;
+    height: 488px;
+    top: 1631px;
+    left: 0;
+    background-image: url(assets/process_assets/Vector\ 5.png);
+    background-size: 100% 100%;
+}
+
+.PROCESS .screenshot-4 {
+    position: absolute;
+    width: 673px;
+    height: 376px;
+    top: 61px;
+    left: 74px;
+    object-fit: cover;
+}
+
+.PROCESS .this-is-the-final {
+    position: absolute;
+    width: 531px;
+    top: 1784px;
+    left: 792px;
+    font-family: "ibm-plex-sans", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 23.2px;
+}
+
+.PROCESS .VERSION-THOUGHTS {
+    width: 436px;
+    top: 1741px;
+    left: 792px;
+    position: absolute;
+    font-family: "ibm-plex-mono", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.PROCESS .overlap-6 {
+    position: absolute;
+    width: 1417px;
+    height: 945px;
+    top: 3552px;
+    left: 0;
+}
+
+.PROCESS .overlap-7 {
+    position: absolute;
+    width: 1417px;
+    height: 945px;
+    top: 0;
+    left: 0;
+}
+
+.PROCESS .vector-4 {
+    position: absolute;
+    width: 755px;
+    height: 488px;
+    top: 0;
+    left: 0;
+}
+
+.PROCESS .vector-5 {
+    position: absolute;
+    width: 687px;
+    height: 500px;
+    top: 445px;
+    left: 730px;
+}
+
+.PROCESS .with-our-art-painted {
+    position: absolute;
+    width: 690px;
+    top: 631px;
+    left: 50px;
+    font-family: "ibm-plex-sans", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 23.2px;
+}
+
+.PROCESS .padfinalimg {
+    position: absolute;
+    width: 617px;
+    height: 411px;
+    top: 503px;
+    left: 768px;
+    object-fit: cover;
+}
+
+.PROCESS .image-2 {
+    position: absolute;
+    width: 559px;
+    height: 419px;
+    top: 40px;
+    left: 98px;
+    object-fit: cover;
+}
+
+.PROCESS .making-the {
+    position: absolute;
+    width: 531px;
+    top: 153px;
+    left: 768px;
+    font-family: "ibm-plex-sans", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 23.2px;
+}
+
+.PROCESS .text-wrapper-9 {
+    width: 436px;
+    top: 110px;
+    left: 768px;
+    position: absolute;
+    font-family: "ibm-plex-mono", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.PROCESS .text-wrapper-10 {
+    position: absolute;
+    width: 322px;
+    top: 587px;
+    left: 50px;
+    font-family: "ibm-plex-mono", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.PROCESS .overlap-8 {
+    position: absolute;
+    width: 1440px;
+    height: 976px;
+    top: 4604px;
+    left: 0;
+}
+
+.PROCESS .overlap-9 {
+    position: absolute;
+    width: 1440px;
+    height: 976px;
+    top: 0;
+    left: 0;
+}
+
+.PROCESS .overlap-10 {
+    position: absolute;
+    width: 1390px;
+    height: 537px;
+    top: 0;
+    left: 50px;
+}
+
+.PROCESS .p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "gambado-sans-forte", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 50.2px;
+    white-space: nowrap;
+}
+
+.PROCESS .vector-6 {
+    position: absolute;
+    width: 711px;
+    height: 500px;
+    top: 38px;
+    left: 680px;
+}
+
+.PROCESS .image-3 {
+    position: absolute;
+    width: 551px;
+    height: 442px;
+    top: 63px;
+    left: 756px;
+}
+
+.PROCESS .text-wrapper-11 {
+    position: absolute;
+    width: 381px;
+    top: 105px;
+    left: 55px;
+    font-family: "ibm-plex-mono", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 27px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.PROCESS .text-wrapper-12 {
+    position: absolute;
+    width: 584px;
+    top: 172px;
+    left: 50px;
+    font-family: "ibm-plex-mono", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.PROCESS .the-first-steps-in {
+    position: absolute;
+    width: 628px;
+    top: 216px;
+    left: 50px;
+    font-family: "ibm-plex-sans", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 23.2px;
+}
+
+.PROCESS .image-wrapper {
+    position: absolute;
+    width: 722px;
+    height: 574px;
+    top: 402px;
+    left: 0;
+    background-image: url(assets/process_assets/Vector\ 16.png);
+    background-size: 100% 100%;
+}
+
+.PROCESS .image-4 {
+    position: absolute;
+    width: 538px;
+    height: 404px;
+    top: 85px;
+    left: 94px;
+    object-fit: cover;
+}
+
+.PROCESS .text-wrapper-13 {
+    width: 322px;
+    top: 614px;
+    left: 777px;
+    position: absolute;
+    font-family: "ibm-plex-mono", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.PROCESS .with-our-imaging {
+    position: absolute;
+    width: 559px;
+    top: 657px;
+    left: 777px;
+    font-family: "ibm-plex-sans", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 23.2px;
+}
+
+.PROCESS .overlap-11 {
+    position: absolute;
+    width: 1440px;
+    height: 1378px;
+    top: 5661px;
+    left: 0;
+}
+
+.PROCESS .overlap-12 {
+    position: absolute;
+    width: 1440px;
+    height: 1378px;
+    top: 0;
+    left: 0;
+}
+
+.PROCESS .IMG-wrapper {
+    position: absolute;
+    width: 687px;
+    height: 500px;
+    top: 0;
+    left: 730px;
+    background-image: url(assets/process_assets/Vector\ 21.png);
+    background-size: 100% 100%;
+}
+
+.PROCESS .IMG {
+    position: absolute;
+    width: 348px;
+    height: 464px;
+    top: 21px;
+    left: 170px;
+    object-fit: cover;
+}
+
+.PROCESS .overlap-13 {
+    position: absolute;
+    width: 1440px;
+    height: 1014px;
+    top: 364px;
+    left: 0;
+}
+
+.PROCESS .vector-7 {
+    position: absolute;
+    width: 722px;
+    height: 574px;
+    top: 0;
+    left: 0;
+}
+
+.PROCESS .vector-8 {
+    position: absolute;
+    width: 805px;
+    height: 539px;
+    top: 475px;
+    left: 635px;
+}
+
+.PROCESS .dsc {
+    position: absolute;
+    width: 617px;
+    height: 412px;
+    top: 551px;
+    left: 740px;
+    object-fit: cover;
+}
+
+.PROCESS .IMG-2 {
+    position: absolute;
+    width: 322px;
+    height: 429px;
+    top: 79px;
+    left: 178px;
+    object-fit: cover;
+}
+
+.PROCESS .quickly-our-game {
+    position: absolute;
+    width: 531px;
+    top: 582px;
+    left: 777px;
+    font-family: "ibm-plex-sans", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 23.2px;
+}
+
+.PROCESS .text-wrapper-14 {
+    position: absolute;
+    width: 376px;
+    top: 538px;
+    left: 777px;
+    font-family: "ibm-plex-mono", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.PROCESS .in-my-role-i-had-to {
+    position: absolute;
+    width: 531px;
+    top: 1057px;
+    left: 57px;
+    font-family: "ibm-plex-sans", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 23.2px;
+}
+
+.PROCESS .text-wrapper-15 {
+    position: absolute;
+    width: 445px;
+    top: 1003px;
+    left: 55px;
+    font-family: "ibm-plex-mono", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.PROCESS .overlap-14 {
+    position: absolute;
+    width: 501px;
+    height: 118px;
+    top: 15px;
+    left: 50px;
+}
+
+.PROCESS .text-wrapper-16 {
+    position: absolute;
+    width: 322px;
+    top: 75px;
+    left: 1px;
+    font-family: "ibm-plex-mono", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.PROCESS .text-wrapper-17 {
+    position: absolute;
+    width: 501px;
+    top: 0;
+    left: 0;
+    font-family: "gambado-sans-forte", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 48px;
+}
+
+.PROCESS .the-whole-idea-of {
+    position: absolute;
+    width: 531px;
+    top: 139px;
+    left: 50px;
+    font-family: "ibm-plex-sans", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 23.2px;
+}
+
+.PROCESS .text-wrapper-18 {
+    position: absolute;
+    width: 445px;
+    top: 7155px;
+    left: 824px;
+    font-family: "ibm-plex-mono", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.PROCESS .overlap-15 {
+    position: absolute;
+    width: 757px;
+    height: 475px;
+    top: 7042px;
+    left: 0;
+    background-image: url(assets/process_assets/Vector\ 24.png);
+    background-size: 100% 100%;
+}
+
+.PROCESS .IMG-3 {
+    position: absolute;
+    width: 318px;
+    height: 424px;
+    top: 40px;
+    left: 198px;
+    object-fit: cover;
+}
+
+.PROCESS .with-the-help-of {
+    position: absolute;
+    width: 531px;
+    top: 7210px;
+    left: 830px;
+    font-family: "ibm-plex-sans", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 23.2px;
+}
